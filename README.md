@@ -1,11 +1,11 @@
 # JQuery-Hover
 This is a simple implementation of the .hover JQuery Function. Visit the page <a href="https://simonable.github.io/JQuery-Hover/"> Here </a>
 
-<br><br>
+<br>
 
 ![](https://github.com/SimonAble/JQuery-Hover/blob/master/img/Hover1.png)
 
-<br><br>
+<br>
 
 ## The html uses an alternate data source to store the second image value. When the function is called it knows to make the secondary source the new img src.
 
@@ -34,5 +34,5 @@ This is a simple implementation of the .hover JQuery Function. Visit the page <a
 );
 ```
 
-<br><br>
+<br>
 ![](https://github.com/SimonAble/JQuery-Hover/blob/master/img/Hover2.png)

@@ -1,5 +1,6 @@
 # JQuery-Hover
-This is a simple implementation of the .hover JQuery Function. Visit the page <a href="https://simonable.github.io/JQuery-Hover/"> Here </a>
+
+#### This is a simple implementation of the .hover JQuery Function. Visit the page <a href="https://simonable.github.io/JQuery-Hover/"> Here </a>
 
 <br>
 
@@ -7,7 +8,7 @@ This is a simple implementation of the .hover JQuery Function. Visit the page <a
 
 <br>
 
-## The html uses an alternate data source to store the second image value. When the function is called it knows to make the secondary source the new img src.
+### The html uses an alternate data source to store the second image value. When the function is called it knows to make the secondary source the new img src.
 
 ```html
   <!--Switch-->
@@ -16,7 +17,7 @@ This is a simple implementation of the .hover JQuery Function. Visit the page <a
     </div>
 ```
 
-## Now, taking a look at the JQuery. The function works by changing two aspects of the html when the mouse hovers over it. 
+### Now, taking a look at the JQuery. The function works by changing two aspects of the html when the mouse hovers over it. 
 
 1. It changes the attr containing the image, changing it to another image.
 2. It also adds a class to the image, giving it the 'glowing effect' created by adding a box shadow.
@@ -35,4 +36,5 @@ This is a simple implementation of the .hover JQuery Function. Visit the page <a
 ```
 
 <br>
+
 ![](https://github.com/SimonAble/JQuery-Hover/blob/master/img/Hover2.png)

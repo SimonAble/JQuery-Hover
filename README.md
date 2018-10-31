@@ -1,6 +1,6 @@
 # JQuery-Hover
 
-#### This is a simple implementation of the .hover JQuery Function. Visit the page <a href="https://simonable.github.io/JQuery-Hover/"> Here </a>
+#### This is a simple implementation of the .hover JQuery Function. Visit the page <a href="https://simonable.github.io/JQuery-Hover/"> Here </a> to see it in action!
 
 <br>
 

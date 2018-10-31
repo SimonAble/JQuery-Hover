@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hover In/Out</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+            $(document).ready(function(){
+                
+                $( "#switch" ).hover(
+                    function() {
+                        $(this).addClass( "hover" );
+                        $(this).attr("src", "img/switch2.jpg"); 
+
+                    }, function() {
+                        $( this ).removeClass( "hover" );
+                        $(this).attr("src", "img/switch1.png"); 
+                    }
+                );
+
+                $( "#playstation" ).hover(
+                    function() {
+                        $(this).addClass( "hover" );
+                        $(this).attr("src", "img/ps42.jpg"); 
+
+                    }, function() {
+                        $( this ).removeClass( "hover" );
+                        $(this).attr("src", "img/ps4.jpg"); 
+                    }
+                );
+
+                $( "#xbox_one" ).hover(
+                    function() {
+                        $(this).addClass( "hover" );
+                        $(this).attr("src", "img/xbox2.jpg"); 
+
+                    }, function() {
+                        $( this ).removeClass( "hover" );
+                        $(this).attr("src", "img/xbox.jpg"); 
+                    }
+                );
+
+                $( "#steam" ).hover(
+                    function() {
+                        $(this).addClass( "hover" );
+                        $(this).attr("src", "img/steam2.jpg"); 
+
+                    }, function() {
+                        $( this ).removeClass( "hover" );
+                        $(this).attr("src", "img/steam.jpg"); 
+                    }
+                );
+
+
+
+            //End of Script
+            })
+
+            
+  
+
+            
+    </script>
+
+</head>
+<body>
+
+    <!--Main Header-->
+    <div id="main_head">
+        <h1>Hover In/Out</h1>
+    </div>
+        
+    <!--Switch-->
+    <div class="container">
+       <img id="switch" src="img/switch1.png" data-alt-src="img/switch2.jpg">
+    </div>
+
+    <!--PS4-->
+    <div class="container">
+        <img id="playstation" src="img/ps4.jpg" data-alt-src="img/sps42.jpg">
+    </div>
+
+    <!--XBox One-->
+    <div class="container">
+        <img id="xbox_one" src="img/xbox.jpg" data-alt-src="img/xbox2.jpg">
+    </div>
+
+    <!--Steam-->
+    <div class="container">
+        <img id="steam" src="img/steam.jpg" data-alt-src="img/steam2.jpg">
+    </div>
+
+    
+
+
+</body>
+
+</html>
